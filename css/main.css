@@ -1,5 +1,6 @@
 /*		Fonts	*/
 @font-face {
+	font-display: swap;
     font-family: 'open_regular';
     src: url('../fonts/opensans-regular.eot');
     src: url('../fonts/opensans-regular.eot?#iefix') format('embedded-opentype'),
@@ -11,6 +12,7 @@
 }
 
 @font-face {
+	font-display: swap;
     font-family: 'open_bold';
     src: url('../fonts/opensans-bold.eot');
     src: url('../fonts/opensans-bold.eot?#iefix') format('embedded-opentype'),
@@ -24,6 +26,7 @@
 
 
 @font-face {
+	font-display: swap;
     font-family: 'open_semibold';
     src: url('../fonts/opensans-semibold.eot');
     src: url('../fonts/opensans-semibold.eot?#iefix') format('embedded-opentype'),
@@ -34,8 +37,6 @@
     font-style: normal;
 
 }
-
-
 
 
 
@@ -583,7 +584,7 @@ a.app_link{
 	font-size: 14px;
 }
 
-.#tslider{
+#tslider{
 	text-align: center!important;
 	position: relative!important;
 }
